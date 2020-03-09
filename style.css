@@ -1,0 +1,36 @@
+html {
+  text-align: center;
+}
+
+body {
+  background-image: url("bg.jpeg"); 
+  max-width: 1000px; 
+  margin: 0 auto;  
+}
+
+.box{
+  padding-top: 60px;
+}
+
+#addtodos {
+  width: 1000px;
+  height: 40px;
+  font-size: 28px;
+  border-radius: 10px;
+  border:0px;
+  background-color: #252A33;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: whitesmoke;
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: whitesmoke;
+}
+  
+::placeholder {
+  color: #5A5F5E;
+  outline: none; 
+  padding-left: 10px;
+}
